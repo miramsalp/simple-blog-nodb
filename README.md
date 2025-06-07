@@ -11,10 +11,6 @@ A straightforward and easy-to-use blogging platform built with Node.js, Express,
     * [Prerequisites](#prerequisites)
     * [Installation](#installation)
 * [Usage](#usage)
-* [Project Structure](#project-structure)
-* [Contributing](#contributing)
-* [License](#license)
-* [Acknowledgements](#acknowledgements)
 
 ## About the Project
 
@@ -80,5 +76,3 @@ Make sure you have Node.js and npm (Node Package Manager) installed.
 * **Edit Post (`/edit/:id`)**: Click the "Edit" button on any post to modify its content.
 * **Delete Post (`/delete/:id`)**: Click the "Delete" button on any post to remove it.
 * **About Page (`/about`)**: Learn more about this application and its technologies.
-
-## Project Structure
