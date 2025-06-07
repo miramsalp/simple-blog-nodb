@@ -1,0 +1,178 @@
+/* 
+    this one use for overwrite bootstrap navbar it align nav items in left stick with icon nav 
+    so this css will make it split and stay between
+*/
+
+.margin-left-overwrite {
+    margin-left: auto;
+    
+}
+
+#typical-bg {
+    background-image: url("../images/adam-juman-vL9vTupr3FA-unsplash.jpg");
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* General Body & Typography */
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f8f9fa; /* Very light gray background */
+    color: #343a40; /* Darker text for better readability */
+    line-height: 1.6; /* Improved line spacing for general text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #212529; /* Darker for headings */
+    font-weight: 700; /* Bolder headings */
+}
+
+h1 {
+    font-size: 2.5rem; /* Larger main title */
+    color: #0056b3; /* A nice shade of blue for the main title */
+}
+
+h2 {
+    font-size: 2rem;
+    color: #0056b3;
+}
+
+/* Navbar specific styling */
+.navbar {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Subtle shadow for navbar */
+    background-color: #ffffff !important; /* Force white background */
+}
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #212529 !important; /* Ensure brand name is dark */
+}
+.navbar-nav .nav-link {
+    color: #343a40 !important; /* Darker links */
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #007bff !important; /* Primary blue on hover/active */
+}
+
+
+/* Form Styling */
+form .form-label {
+    font-weight: 600; /* Bold labels */
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    border-radius: 0.5rem; /* Slightly rounded input fields */
+    border: 1px solid #ced4da;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #86b7fe; /* Bootstrap's focus color */
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-primary {
+    background-color: #007bff; /* Standard Bootstrap primary blue */
+    border-color: #007bff;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-3px); /* Slight lift on hover */
+}
+
+
+/* Card Styling */
+.card {
+    border: none; /* Remove default card border */
+    border-radius: 1rem; /* More rounded corners */
+    overflow: hidden; /* Ensures image corners are rounded */
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1); /* Medium shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    height: 100%; /* Ensures cards in a row are same height */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift card more on hover */
+    box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,0.2); /* Stronger shadow on hover */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+    border-top-left-radius: 1rem; /* Match card border radius */
+    border-top-right-radius: 1rem; /* Match card border radius */
+}
+
+.card-body {
+    padding: 1.5rem; /* More internal padding */
+    display: flex; /* Flexbox for content distribution */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.card-title {
+    font-size: 1.6rem; /* Larger card titles */
+    font-weight: 700;
+    color: #007bff; /* Blue title for card */
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    font-size: 0.95rem; /* Slightly smaller text for card content */
+    color: #5a6268; /* Softer text color */
+    flex-grow: 1; /* Allows text to take up available space */
+    margin-bottom: 1rem; /* Spacing before buttons */
+}
+
+/* Button Styling within cards */
+.card .btn-sm {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Lighter rule */
+}
+
+/* Optional: Lead text for no posts */
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #6c757d;
+}
